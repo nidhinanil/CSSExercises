@@ -1,0 +1,42 @@
+.odd
+{
+    /* All odd numbered elements */
+
+    background-color: #ffb8c2;
+    font-family: Verdana, DejaVu Sans, sans-serif;    
+
+}
+
+#a 
+{
+color: #0000ff;   /* The second element */
+font-size: 36px;
+}
+
+.odd.adjust-font-size
+{
+
+font-size: 24px;    /*  The third element */
+    
+}
+
+#b
+{
+                                                    /* The fourth element */
+background-color: #90ee90;
+font-size: 24px;                       
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
