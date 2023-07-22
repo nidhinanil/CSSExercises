@@ -8,13 +8,19 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+.para {
+  font-size: 22px;                 /* If we look betwwen two class selector type first we look which is last and which class is more and we make lesser one more specific or shift position lesser to last*/
 }
 
-.para {
-  font-size: 22px;
+.small-para {
+  font-size: 14px;
+  font-weight: 800;       /*      Specificity     :-    LAST  OR  MORE SPECIFIC  */
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -23,11 +29,6 @@ body {
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
 
 .child {
   color: rgb(0, 0, 0);
@@ -35,7 +36,7 @@ body {
   font-size: 14px;
 }
 
-div.text {
+  div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
